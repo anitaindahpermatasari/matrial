@@ -48,24 +48,12 @@ use App\Models\User;
                     </div><!-- Dashboard Ecommerce Starts --> --}}
                     <section id="dashboard-ecommerce">
                         <div class="pricing-free-trial">
-                            <table class="table table-sm table-hover-animation">
-                                <thead>
-                                    <tr>
-                                        <th>ID User</th>
-                                        <th>Nama User</th>
-                                        <th>Email User</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                @foreach ($users as $user)
-                                <tr>
-                                    <td>{{ $user['id'] }}</td>
-                                    <td>{{ $user['name'] }}</td>
-                                    <td>{{ $user['email'] }}</td>
-                                </tr>
-                                @endforeach
-                                </tbody>
-                            </table>
+                            <img src="{{ asset('/images/logo/logosmk.png') }}" height="100" width="100">
+                            <h1 class="brand-text">UD CIPTA INDAH</h1>
+                        </div>
+                        <br><br><br><br>
+                        <div class="pricing-free-trial">
+                            <h1 class="brand-text">S.E.L.A.M.A.T~~~D.A.T.A.N.G</h1>
                         </div>
                     </section>
                     <!-- Dashboard Ecommerce ends -->
