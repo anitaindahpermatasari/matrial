@@ -55,7 +55,7 @@ use Illuminate\Support\Facades\Auth;
 
 
     <!-- BEGIN: Header-->
-    <nav class="header-navbar navbar navbar-expand-lg align-items-center navbar-light navbar-shadow">
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center navbar-dark navbar-shadow">
 
         <div class="navbar-container d-flex content">
             <div class="bookmark-wrapper d-flex align-items-center">
